@@ -1,0 +1,208 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.row::before,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col"] {
+    float: left;
+    min-height: 1px;
+    margin: 0 10px 0 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Column Left */
+
+.secondcol {
+    background-color: #0DAC4B;
+    box-shadow: 4px 3px 3px #CCC;
+    border-radius: 10px;
+}
+
+.education {
+    padding: 15px 15px 180px 15px;
+    color: white;
+    box-shadow: 3px 3px 3px #CCC;
+}
+
+.education span {   
+    padding-left: 9px;
+}
+
+.education .Wielun {
+    padding-left: 6px;
+    margin-top: 15px;
+}
+
+.education p {
+    font-size: 15.5px;
+    letter-spacing: 1px;
+}
+
+.education li {
+    font-size: 17px;
+}
+
+.education h2 {
+    padding-top: 50px;
+}
+
+.education p:first-child {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.education p:nth-child(2) {
+    font-size: 30px;
+}
+
+.education p:nth-child(3) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education p:nth-child(4) {
+    letter-spacing: 1px;
+}
+
+.education .github {
+    padding-left: 10px;
+}
+
+.education .portfolio {
+    padding-left: 8.5px;
+    letter-spacing: 0.5px;
+}
+
+.education .linkedin {
+    padding-left: 2px;
+}
+
+.education .linkedin .linkspan {
+    padding-left: 9px;
+    letter-spacing: 0.5px;
+}
+
+/* Right Column */
+
+.thirdcol {
+    letter-spacing: 0.5px;
+}
+
+.thirdcol h2 {
+    color: #0DAC4B;
+    font-size: 28px;
+}
+
+.paragraf {
+    padding-top: 10px;
+}
+
+.paragraf p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+}
+
+.courses {
+    padding: 20px;
+    font-size: 18px;
+    padding-top: 0;
+}
+
+.courses li::before {
+    content: "•   ";
+    height: 10px; 
+    color: #0DAC4B;
+    width: 5px;
+    padding: 0;
+}
+
+.courses h2 {
+    margin-top: 0;
+}
+
+.courses p:first-child {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Agreement */
+
+.footer {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 12px;
+    width: 800px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Grid */
+
+.col-1 {
+    width: 8.334%;
+}
+
+.col-2 {
+    width: 16.667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+.col-5 {
+    width: 41.667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.334%;
+}
+
+.col-8 {
+    width: 66.667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.334%;
+}
+
+.col-11 {
+    width: 91.667%;
+}
+
+.col-12 {
+    width: 100%;
+}
